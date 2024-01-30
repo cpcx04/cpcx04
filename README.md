@@ -1,16 +1,24 @@
-### Hi there 👋
+## 👋 Hello there!
 
-<!--
-**cpcx04/cpcx04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Cristian, a passionate Full-Stack Developer with expertise in various technologies. Here's a glimpse of my skills and interests:
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on my degree about Software development
+- 🌱 I’m currently learning Flutter and Spring Boot to level up my skills.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 💬 Ask me about anything related to [gmail(pulidocabellochristian@gmail.com)].
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/cristian-pulido-cabello-564557256/)]
+
+### 🚀 Technologies & Tools
+
+- Frontend: HTML, CSS, JavaScript, Angular, Flutter
+- Backend: Java (Spring Framework), Hibernate
+- Database: SQL
+- DevOps: Docker, Git
+- Other: UI/UX, Google Maps API, jQuery
+
+### 📈 GitHub Stats
+
+[![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&theme=radical)](https://github.com/cpcx04)
+
+Feel free to connect and explore my projects! 😊
+

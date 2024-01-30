@@ -5,8 +5,8 @@ I'm Cristian, a passionate Full-Stack Developer with expertise in various techno
 - 🔭 I’m currently working on my degree about Software development
 - 🌱 I’m currently learning Flutter and Spring Boot to level up my skills.
 
-- 💬 Ask me about anything related to [gmail(pulidocabellochristian@gmail.com)].
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/cristian-pulido-cabello-564557256/)]
+- 💬 Ask me about anything related to [gmail](pulidocabellochristian@gmail.com).
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/cristian-pulido-cabello-564557256/)
 
 ### 🚀 Technologies & Tools
 

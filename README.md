@@ -37,4 +37,3 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&locale=en" alt="cpcx04" /></p>
 
-[![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&theme=dark)](https://github.com/cpcx04)

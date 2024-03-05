@@ -31,7 +31,7 @@
 <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
 <a href="https://developers.google.com/maps" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_maps/google_maps-icon.svg" alt="google-maps" width="40" height="40"/> </a>
 </p>
-
+<img src="https://myreadme.vercel.app/api/embed/cpcx04?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
 
 <p align="left"><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=cpcx04&show_icons=true&locale=en&layout=compact" alt="cpcx04" /></p>
 

@@ -33,7 +33,4 @@
 </p>
 <img src="https://myreadme.vercel.app/api/embed/cpcx04?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
 
-<p align="left"><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=cpcx04&show_icons=true&locale=en&layout=compact" alt="cpcx04" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&locale=en" alt="cpcx04" /></p>
 

@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=cpcx04&label=Profile%20views&color=0e75b6&style=flat" alt="cpcx04" /> </p>
 
 - 🔭 I’m currently working on my degree about Software development
-- 🌱 I’m currently learning Flutter and Spring Boot to level up my skills.
+- 🌱 I’m currently learning React and Next to level up my skills.
 
 - 📫 How to reach me: **[pulidocabellochristian@gmail.com](mailto:pulidocabellochristian@gmail.com)**
 

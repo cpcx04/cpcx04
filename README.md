@@ -9,7 +9,12 @@
   
 - 💬 Ask me about **React, Node.js, and full-stack development.**
 
+- 🌐 **Check my portfolio**: [cristianpulido.es](https://cristianpulido.es)
+
+- 🚀 **Check my latest work**: [rise2top.es](https://www.rise2top.es)
+
 - 📫 Reach me at: **[pulidocabellochristian@gmail.com](mailto:pulidocabellochristian@gmail.com)**
+
 
 <br/>
 

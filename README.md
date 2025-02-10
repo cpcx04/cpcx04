@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Cristian Pulido Cabello</h1>
 <h3 align="center">A passionate Full-Stack Developer with expertise in modern technologies. Let's build something amazing together!</h3>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Porx312/Porx312/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Porx312/Porx312/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Porx312/Porx312/output/github-snake.svg" />
+</picture>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=cpcx04&label=Profile%20views&color=0e75b6&style=flat" alt="cpcx04" />
 </p>

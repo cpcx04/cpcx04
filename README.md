@@ -30,7 +30,7 @@
 ```javascript
 const cristian = {
   role: "Full-Stack Developer",
-  location: "España",
+  location: "Sevilla, España",
   code: ["JavaScript", "TypeScript", "Java", "Python", "HTML/CSS"],
   technologies: {
     frontend: ["React", "Next.js", "Angular", "jQuery"],
@@ -44,6 +44,29 @@ const cristian = {
   funFact: "Creo que un café bien preparado es la base de un código limpio"
 };
 ```
+
+<br>
+
+## 💼 Experiencia Profesional
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="https://fisevi.com/wp-content/uploads/2024/07/Logo-horizontal.png" alt="Hospital Virgen del Rocío" height="80">
+        <h3>Hospital Virgen del Rocío - Sevilla</h3>
+        <p><em>Desarrollador de Aplicaciones Para uso Médico</em></p>
+        <p>Desarrollando soluciones tecnológicas para el sector sanitario, mejorando la eficiencia de procesos y la experiencia del paciente y el clínico.</p>
+      </td>
+      <td width="50%" align="center">
+        <img src="https://img.shields.io/badge/Rise2Top-Colaborador-3498db?style=for-the-badge&logo=react" alt="Rise2Top">
+        <h3>Rise2Top</h3>
+        <p><em>Colaborador en Proyectos Digitales</em></p>
+        <p>Trabajo en colaboración para el desarrollo de soluciones empresariales innovadoras y proyectos de transformación digital.</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br>
 
@@ -110,15 +133,22 @@ const cristian = {
 ## ✨ GitHub Summary
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cpcx04&bg_color=1a1b27&color=628fdb&line=8a87d8&point=bf91f3&area=true&hide_border=true" alt="Contribution Graph" width="100%">
-</div>
-
-<div align="center">
-  <img src="https://github-profile-3d-contrib.vercel.app/api?username=cpcx04&theme=tokyonight" alt="3D Contribution Calendar" width="100%">
-</div>
-
-<div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=cpcx04&theme=tokyonight&no-frame=true&column=7" alt="GitHub Trophies" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cpcx04&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>
@@ -142,39 +172,6 @@ const cristian = {
       </td>
     </tr>
   </table>
-</div>
-
-<br>
-
-## 📋 Mi Roadmap 2025
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://progress-bar.dev/80?title=React%20Native&width=200&color=3498db" alt="React Native Progress" />
-      </td>
-      <td>
-        <img src="https://progress-bar.dev/60?title=AWS&width=200&color=ff9900" alt="AWS Progress" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://progress-bar.dev/75?title=GraphQL&width=200&color=e535ab" alt="GraphQL Progress" />
-      </td>
-      <td>
-        <img src="https://progress-bar.dev/65?title=Microservicios&width=200&color=27ae60" alt="Microservicios Progress" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-## 📈 Contribuciones Semanales
-
-<div align="center">
-  <img src="https://metrics.lecoq.io/cpcx04?template=classic&base.header=0&isocalendar=1&languages=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&isocalendar=false&isocalendar.duration=half-year&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Europe%2FMadrid" alt="Metrics" width="70%">
 </div>
 
 <br>

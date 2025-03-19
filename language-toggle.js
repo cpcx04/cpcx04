@@ -1,5 +1,5 @@
 /**
- * Script para alternar el idioma del README entre español e inglés
+ * Script para alternar el idioma del README entre inglés y español
  */
 
 // Contenido en español
@@ -28,7 +28,7 @@ const spanishContent = {
   evolve: "Evolucionar",
   evolveDesc: "Mantengo un aprendizaje continuo para incorporar nuevas tecnologías y metodologías.",
   contact: "Contáctame",
-  toggleLanguage: "Switch to English"
+  toggleLanguage: "Cambiar a Español"
 };
 
 // Contenido en inglés
@@ -60,12 +60,12 @@ const englishContent = {
   toggleLanguage: "Cambiar a Español"
 };
 
-let currentLanguage = 'es';
+// Iniciar con inglés por defecto
+let currentLanguage = 'en';
 
-// Función para cambiar el idioma
-function toggleLanguage() {
-  const content = currentLanguage === 'es' ? englishContent : spanishContent;
-  currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
+// Función para aplicar un idioma específico
+function applyLanguage(language) {
+  const content = language === 'es' ? spanishContent : englishContent;
   
   // Actualizar elementos en el DOM
   document.getElementById('about-me').innerText = content.aboutMe;
@@ -95,13 +95,20 @@ function toggleLanguage() {
   document.getElementById('toggle-language').innerText = content.toggleLanguage;
 }
 
-// Añadir botón de cambio de idioma al cargar la página
+// Función para cambiar el idioma
+function toggleLanguage() {
+  currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
+  applyLanguage(currentLanguage);
+}
+
+// Añadir botón de cambio de idioma al cargar la página y asignar IDs
 document.addEventListener('DOMContentLoaded', function() {
-  const header = document.querySelector('div[align="center"]');
+  // Agregar el botón de idioma
+  const header = document.querySelector('div[align="center"]:first-of-type');
   
   const languageButton = document.createElement('button');
   languageButton.id = 'toggle-language';
-  languageButton.innerText = 'Switch to English';
+  languageButton.innerText = 'Cambiar a Español';
   languageButton.className = 'language-toggle-btn';
   languageButton.onclick = toggleLanguage;
   
@@ -130,29 +137,94 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   document.head.appendChild(style);
   
-  // Añadir IDs a los elementos que necesitamos modificar
-  document.querySelector('h2:contains("Sobre mí")').id = 'about-me';
-  document.querySelector('const cristian = {').nextElementSibling.id = 'role';
-  document.querySelector('role:').nextElementSibling.id = 'location';
-  document.querySelector('technologies:').parentElement.id = 'technologies';
-  document.querySelector('currentFocus:').nextElementSibling.id = 'current-focus';
-  document.querySelector('funFact:').nextElementSibling.id = 'fun-fact';
-  document.querySelector('h2:contains("Experiencia Profesional")').id = 'experience';
-  document.querySelector('h3:contains("Hospital Virgen del Rocío")').nextElementSibling.id = 'developer-title';
-  document.querySelector('#developer-title').nextElementSibling.id = 'developer-desc';
-  document.querySelector('h3:contains("Rise2Top")').nextElementSibling.id = 'collaborator-title';
-  document.querySelector('#collaborator-title').nextElementSibling.id = 'collaborator-desc';
-  document.querySelector('h2:contains("Proyectos Destacados")').id = 'projects';
-  document.querySelectorAll('img[alt="Ver Proyecto"]').forEach(el => el.parentElement.classList.add('view-project'));
-  document.querySelector('h3:contains("La Tienda by Quiosco Sarita")').parentElement.querySelector('p strong').id = 'ecommerce-desc';
-  document.querySelector('h3:contains("Rise2Top")').parentElement.querySelector('p strong').id = 'platform-desc';
-  document.querySelector('h2:contains("Tech Stack")').id = 'tech-stack';
-  document.querySelector('h2:contains("Mi Filosofía de Desarrollo")').id = 'philosophy';
-  document.querySelector('h3:contains("Pensar")').id = 'think';
-  document.querySelector('#think').nextElementSibling.id = 'think-desc';
-  document.querySelector('h3:contains("Crear")').id = 'create';
-  document.querySelector('#create').nextElementSibling.id = 'create-desc';
-  document.querySelector('h3:contains("Evolucionar")').id = 'evolve';
-  document.querySelector('#evolve').nextElementSibling.id = 'evolve-desc';
-  document.querySelector('h2:contains("Contáctame")').id = 'contact';
+  // Añadir IDs a los elementos
+  const addIds = () => {
+    // Encabezado "Sobre mí" / "About me"
+    document.querySelector('h2').id = 'about-me';
+    
+    // Objeto JavaScript con la info personal
+    const codeBlock = document.querySelector('pre code');
+    if (codeBlock) {
+      const lines = codeBlock.innerHTML.split('\n');
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].includes('role:')) {
+          lines[i] = lines[i].replace('role:', '<span id="role">role:</span>');
+        } else if (lines[i].includes('location:')) {
+          lines[i] = lines[i].replace('location:', '<span id="location">location:</span>');
+        } else if (lines[i].includes('technologies:')) {
+          lines[i] = lines[i].replace('technologies:', '<span id="technologies">technologies:</span>');
+        } else if (lines[i].includes('currentFocus:')) {
+          lines[i] = lines[i].replace('currentFocus:', '<span id="current-focus">currentFocus:</span>');
+        } else if (lines[i].includes('funFact:')) {
+          lines[i] = lines[i].replace('funFact:', '<span id="fun-fact">funFact:</span>');
+        }
+      }
+      codeBlock.innerHTML = lines.join('\n');
+    }
+    
+    // Secciones principales
+    const headings = document.querySelectorAll('h2');
+    for (let i = 0; i < headings.length; i++) {
+      if (headings[i].textContent.includes('Experiencia Profesional')) {
+        headings[i].id = 'experience';
+      } else if (headings[i].textContent.includes('Proyectos Destacados')) {
+        headings[i].id = 'projects';
+      } else if (headings[i].textContent.includes('Tech Stack')) {
+        headings[i].id = 'tech-stack';
+      } else if (headings[i].textContent.includes('Mi Filosofía')) {
+        headings[i].id = 'philosophy';
+      } else if (headings[i].textContent.includes('Contáctame')) {
+        headings[i].id = 'contact';
+      }
+    }
+    
+    // Experiencia profesional
+    const expTitles = document.querySelectorAll('h3');
+    for (let i = 0; i < expTitles.length; i++) {
+      if (expTitles[i].textContent.includes('Hospital Virgen del Rocío')) {
+        expTitles[i].nextElementSibling.id = 'developer-title';
+        expTitles[i].nextElementSibling.nextElementSibling.id = 'developer-desc';
+      } else if (expTitles[i].textContent.includes('Rise2Top') && !expTitles[i].textContent.includes('La Tienda')) {
+        expTitles[i].nextElementSibling.id = 'collaborator-title';
+        expTitles[i].nextElementSibling.nextElementSibling.id = 'collaborator-desc';
+      }
+    }
+    
+    // Proyectos
+    const projectLinks = document.querySelectorAll('img[alt="Ver Proyecto"]');
+    for (let i = 0; i < projectLinks.length; i++) {
+      projectLinks[i].classList.add('view-project');
+    }
+    
+    const projectTitles = document.querySelectorAll('h3[align="center"]');
+    for (let i = 0; i < projectTitles.length; i++) {
+      if (projectTitles[i].textContent.includes('La Tienda')) {
+        const desc = projectTitles[i].parentElement.querySelector('p strong');
+        if (desc) desc.id = 'ecommerce-desc';
+      } else if (projectTitles[i].textContent.includes('Rise2Top')) {
+        const desc = projectTitles[i].parentElement.querySelector('p strong');
+        if (desc) desc.id = 'platform-desc';
+      }
+    }
+    
+    // Filosofía
+    const philoTitles = document.querySelectorAll('td h3');
+    for (let i = 0; i < philoTitles.length; i++) {
+      if (philoTitles[i].textContent.includes('Pensar')) {
+        philoTitles[i].id = 'think';
+        philoTitles[i].nextElementSibling.id = 'think-desc';
+      } else if (philoTitles[i].textContent.includes('Crear')) {
+        philoTitles[i].id = 'create';
+        philoTitles[i].nextElementSibling.id = 'create-desc';
+      } else if (philoTitles[i].textContent.includes('Evolucionar')) {
+        philoTitles[i].id = 'evolve';
+        philoTitles[i].nextElementSibling.id = 'evolve-desc';
+      }
+    }
+  };
+  
+  // Asignar IDs y aplicar el inglés por defecto
+  addIds();
+  // Después de agregar los IDs, cambiamos al inglés
+  applyLanguage('en');
 });

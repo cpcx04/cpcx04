@@ -1,114 +1,198 @@
-<h1 align="center">Hi 👋, I'm Cristian Pulido Cabello</h1>
-<h3 align="center">A passionate Full-Stack Developer with expertise in modern technologies. Let's build something amazing together!</h3>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Porx312/Porx312/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Porx312/Porx312/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Porx312/Porx312/output/github-snake.svg" />
-</picture>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cpcx04&label=Profile%20views&color=0e75b6&style=flat" alt="cpcx04" />
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:8e44ad&height=200&section=header&text=Cristian%20Pulido%20Cabello&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=30&desc=Full-Stack%20Developer%20|%20Digital%20Experience%20Creator&descAlignY=50" alt="Header" width="100%">
+</div>
 
-- 🔭 I’m currently working on the development of **high-converting landing pages!**
+<div align="center">
   
-- 💬 Ask me about **React, Node.js, and full-stack development.**
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6C5CE7&center=true&vCenter=true&width=435&lines=Building+digital+experiences;Passionate+about+clean+code;Connecting+ideas+through+technology)](https://git.io/typing-svg)
+  
+  ![Snake animation](https://raw.githubusercontent.com/Porx312/Porx312/output/github-snake.svg)
+  
+  <a href="https://github.com/cpcx04">
+    <img src="https://komarev.com/ghpvc/?username=cpcx04&label=Visitas&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+  </a>
+  <a href="https://cristianpulido.es">
+    <img src="https://img.shields.io/badge/Portfolio-cristianpulido.es-blueviolet?style=for-the-badge&logo=firefox-browser" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/cristian-pulido-cabello-564557256/">
+    <img src="https://img.shields.io/badge/LinkedIn-Cristian_Pulido-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="mailto:pulidocabellochristian@gmail.com">
+    <img src="https://img.shields.io/badge/Email-pulidocabellochristian%40gmail.com-red?style=for-the-badge&logo=gmail" alt="Email" />
+  </a>
+  
+</div>
 
-- 🌐 **Check my portfolio**: [cristianpulido.es](https://cristianpulido.es)
+<br>
 
-- 🚀 **Check my latest work**: [rise2top.es](https://www.rise2top.es)
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Sobre mí
 
-- 📫 Reach me at: **[pulidocabellochristian@gmail.com](mailto:pulidocabellochristian@gmail.com)**
+```javascript
+const cristian = {
+  role: "Full-Stack Developer",
+  location: "España",
+  code: ["JavaScript", "TypeScript", "Java", "Python", "HTML/CSS"],
+  technologies: {
+    frontend: ["React", "Next.js", "Angular", "jQuery"],
+    mobile: ["React Native", "Flutter", "Android"],
+    backend: ["Node.js", "Express", "Spring Boot", "Hibernate"],
+    databases: ["MySQL", "MongoDB", "PostgreSQL"],
+    devOps: ["Docker", "Git", "CI/CD"],
+    other: ["Google Maps API", "RESTful APIs", "Responsive Design"]
+  },
+  currentFocus: "Desarrollando landing pages de alta conversión",
+  funFact: "Creo que un café bien preparado es la base de un código limpio"
+};
+```
 
+<br>
 
-<br/>
+## 🚀 Proyectos Destacados
 
-## 🌐 Connect with me:
-<p align="left">
-<a href="https://www.linkedin.com/in/cristian-pulido-cabello-564557256/" target="_blank">
-  <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" height="40" width="40" />
-</a>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3 align="center">La Tienda by Quiosco Sarita</h3>
+        <div align="center">
+          <a href="https://www.latiendabyquioscosarita.com/inicio" target="_blank">
+            <img src="https://img.shields.io/badge/Ver%20Proyecto-8e44ad?style=for-the-badge&logo=chrome&logoColor=white" alt="Ver Proyecto" />
+          </a>
+          <br>
+          <br>
+          <p>
+            <strong>E-commerce completo desarrollado con las últimas tecnologías del mercado para ofrecer una experiencia de compra optimizada.</strong>
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+            <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+            <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" />
+            <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot" />
+          </p>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">Rise2Top</h3>
+        <div align="center">
+          <a href="https://www.rise2top.es" target="_blank">
+            <img src="https://img.shields.io/badge/Ver%20Proyecto-3498db?style=for-the-badge&logo=chrome&logoColor=white" alt="Ver Proyecto" />
+          </a>
+          <br>
+          <br>
+          <p>
+            <strong>Plataforma diseñada para el crecimiento empresarial con interfaces modernas y experiencia de usuario optimizada.</strong>
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+            <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+          </p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<br/>
+<br>
 
-## 🛠️ Languages and Tools:
-<p align="left">
-  <!-- Languages -->
-  <a href="https://developer.android.com" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> 
-  </a>
-  <a href="https://angular.io" target="_blank"> 
-    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> 
-  </a>
-  <a href="https://flutter.dev" target="_blank"> 
-    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> 
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html" width="40" height="40"/> 
-  </a>
-  <a href="https://www.w3.org/Style/CSS/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" width="40" height="40"/> 
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a>
-  <a href="https://jquery.com/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original-wordmark.svg" alt="jquery" width="40" height="40"/> 
-  </a>
+## 🛠️ Tech Stack 
 
-  <!-- Backend & Databases -->
-  <a href="https://www.java.com" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
-  </a>
-  <a href="https://nodejs.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
-  </a>
-  <a href="https://www.python.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-  </a>
-  <a href="https://expressjs.com/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> 
-  </a>
-  <a href="https://spring.io/" target="_blank"> 
-    <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> 
-  </a>
-  <a href="https://hibernate.org/" target="_blank"> 
-    <img src="https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg" alt="hibernate" width="40" height="40"/> 
-  </a>
-  <a href="https://www.mysql.com/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-  </a>
-  <a href="https://www.docker.com/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> 
-  </a>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,javascript,typescript,html,css,tailwind,nodejs,express,java,spring,python,mysql,mongodb,docker,git,flutter" alt="Technology Icons" />
+  
+  <br>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Google Maps" />
+</div>
 
-  <!-- Tools -->
-  <a href="https://git-scm.com/" target="_blank"> 
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
+<br>
+
+## ✨ GitHub Summary
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=cpcx04&bg_color=1a1b27&color=628fdb&line=8a87d8&point=bf91f3&area=true&hide_border=true" alt="Contribution Graph" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://github-profile-3d-contrib.vercel.app/api?username=cpcx04&theme=tokyonight" alt="3D Contribution Calendar" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=cpcx04&theme=tokyonight&no-frame=true&column=7" alt="GitHub Trophies" width="100%">
+</div>
+
+<br>
+
+## 📌 Mi Filosofía de Desarrollo
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <h3>🧠 Pensar</h3>
+        <p>Analizo cada proyecto para crear soluciones escalables que resuelvan problemas reales.</p>
+      </td>
+      <td align="center" width="33%">
+        <h3>💻 Crear</h3>
+        <p>Implemento código limpio y eficiente siguiendo las mejores prácticas de la industria.</p>
+      </td>
+      <td align="center" width="33%">
+        <h3>🚀 Evolucionar</h3>
+        <p>Mantengo un aprendizaje continuo para incorporar nuevas tecnologías y metodologías.</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+## 📋 Mi Roadmap 2025
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://progress-bar.dev/80?title=React%20Native&width=200&color=3498db" alt="React Native Progress" />
+      </td>
+      <td>
+        <img src="https://progress-bar.dev/60?title=AWS&width=200&color=ff9900" alt="AWS Progress" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://progress-bar.dev/75?title=GraphQL&width=200&color=e535ab" alt="GraphQL Progress" />
+      </td>
+      <td>
+        <img src="https://progress-bar.dev/65?title=Microservicios&width=200&color=27ae60" alt="Microservicios Progress" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+## 📈 Contribuciones Semanales
+
+<div align="center">
+  <img src="https://metrics.lecoq.io/cpcx04?template=classic&base.header=0&isocalendar=1&languages=1&achievements=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&isocalendar=false&isocalendar.duration=half-year&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Europe%2FMadrid" alt="Metrics" width="70%">
+</div>
+
+<br>
+
+## 📫 Contáctame
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/cristian-pulido-cabello-564557256/" target="_blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="linkedin" />
   </a>
-  <a href="https://developers.google.com/maps" target="_blank"> 
-    <img src="https://www.vectorlogo.zone/logos/google_maps/google_maps-icon.svg" alt="google-maps" width="40" height="40"/> 
+  <a href="mailto:pulidocabellochristian@gmail.com" target="_blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/gmail.png" alt="email" />
   </a>
-  <a href="https://reactjs.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
+  <a href="https://cristianpulido.es" target="_blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/domain.png" alt="website" />
   </a>
-  <a href="https://nextjs.org/" target="_blank"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="nextjs" width="40" height="40"/> 
-  </a>
-</p>
+</div>
 
-<br/>
-
-## 📊 GitHub Stats:
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=cpcx04&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
-<br/>
-
-## 🚀 Top Languages:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cpcx04&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:8e44ad&height=120&section=footer" width="100%">
+</div>

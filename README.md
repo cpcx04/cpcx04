@@ -117,40 +117,38 @@ const cristian = {
 
 <br>
 
-## 🛠️ Tech Stack 
-
+## 🛠️ Tech Stack
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,javascript,typescript,html,css,tailwind,nodejs,express,java,spring,python,mysql,mongodb,docker,git,flutter" alt="Technology Icons" />
-  
-  <br>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
-  <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Google Maps" />
+  <h3>Lenguajes y Frameworks</h3>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,javascript,typescript,html,css,tailwind,nodejs,express,java,spring,python,mysql,mongodb,docker,git,flutter&perline=9" alt="Technology Icons" />
+<br><br>
+  <h3>Herramientas y Plataformas</h3>
+  <p>
+    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+    <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+    <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Google Maps" />
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+    <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger" />
+    <img src="https://img.shields.io/badge/GitHubActions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  </p>
 </div>
-
 <br>
 
-## ✨ GitHub Summary
+## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=cpcx04&theme=tokyonight&no-frame=true&column=7" alt="GitHub Trophies" width="100%">
+  <img src="https://github-profile-trophy.vercel.app/?username=cpcx04&theme=dracula&no-frame=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" width="100%">
 </div>
-
 <br>
-
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats">
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cpcx04&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
-      </td>
-    </tr>
-  </table>
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=cpcx04&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cpcx04&layout=compact&hide_border=true&title_color=ff91a4&text_color=ff91a4&bg_color=0d1117" alt="Top Languages" />
 </div>
-
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=cpcx04&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+</div>
 <br>
 
 ## 📌 Mi Filosofía de Desarrollo
@@ -177,7 +175,6 @@ const cristian = {
 <br>
 
 ## 📫 Contáctame
-
 <div align="center">
   <a href="https://www.linkedin.com/in/cristian-pulido-cabello-564557256/" target="_blank">
     <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="linkedin" />
@@ -188,8 +185,11 @@ const cristian = {
   <a href="https://cristianpulido.es" target="_blank">
     <img src="https://img.icons8.com/bubbles/100/000000/domain.png" alt="website" />
   </a>
+  <a href="https://github.com/cpcx04" target="_blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/github.png" alt="github" />
+  </a>
 </div>
-
+<br>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:8e44ad&height=120&section=footer" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C5CE7,100:8E44AD&height=150&section=footer" width="100%">
 </div>
